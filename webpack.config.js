@@ -25,7 +25,7 @@ module.exports = {
 					loader: 'img-optimize-loader',
 					options: {
 						compress: {
-							// This will transform your png/jpg into webp.
+							// This will transform png/jpg into webp.
 							webp: true,
 							disableOnDevelopment: true,
 						},

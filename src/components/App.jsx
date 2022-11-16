@@ -1,19 +1,13 @@
 import React, { Component } from 'react';
-import Main from './main/main.jsx';
 
-class App extends Component {
-	constructor(props) {
-		super(props);
-		this.state = {};
-	}
-
+export default class App extends Component {
 	render() {
 		return (
 			<div className="wrapper">
-				<Main />
+				<div className="wrapper__container">
+					Hello world
+				</div>
 			</div>
 		);
 	}
 }
-
-export default App;
